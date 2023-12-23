@@ -18,11 +18,11 @@ function search(arr, n, x) {
 // Driver Code
 
 const arr = [2, 3, 4, 10, 40];
-const x = 101;
+const x = 10;
 const n = arr.length;
 
 // function call
 let result = search(arr, n, x);
-result == -1
+(result == -1)
     ? console.log("Elements is not present in array")
     : console.log("Element is present in index " + result);
