@@ -5,5 +5,5 @@ Searching Algorithm are designed to check for an element or retrieve an element 
 ## These Algorithm are generally classified into two categories.
 
 ### 1. Sequential Search:
-In this, the list of array is traversed sequentially & every elements is checked.
+In this, the list of array is traversed sequentially & every elements is checked.<br>
 **EX:-** Linear Search 
