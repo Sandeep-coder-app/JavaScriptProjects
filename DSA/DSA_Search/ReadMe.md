@@ -1,6 +1,9 @@
-# $\color{grey}{Search\ Algorithm}$
+# Searching Algorithm
 
-### $\color{green}{Searching\ Algorithm\ are\ designed\ to\ check\ for\ an\ elements\ or\ retrieve\ an\ elements\ from\ any\ data\ structure\ where\ it\ is\ storted.}$
+Searching Algorithm are designed to check for an element or retrieve an element from any data structure where it is storted.
 
-### $\color{grey}{These\ Algorithm\ are\ generally\ classified\ into\ two\ categories.}$
-### $\color{grey}{**1.\ Seqential\ Search:-**}$  
+## These Algorithm are generally classified into two categories.
+
+### 1. Sequential Search:
+In this, the list of array is traversed sequentially & every elements is checked.
+**EX:-** Linear Search 
