@@ -9,3 +9,5 @@ In this, the list of array is traversed sequentially & every elements is checked
 **EX:-** Linear Search 
 
 ### 2. Interval Search:
+These Algorithm are specially designed for searching in storted DS. These type of searching algorithm are much more efficient than linear search as they repeatedly target the center of the search structure & divide the search space in half.<br>
+**EX:-** Binary Search
