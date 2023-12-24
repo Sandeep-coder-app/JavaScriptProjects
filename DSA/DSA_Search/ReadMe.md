@@ -7,3 +7,5 @@ Searching Algorithm are designed to check for an element or retrieve an element 
 ### 1. Sequential Search:
 In this, the list of array is traversed sequentially & every elements is checked.<br>
 **EX:-** Linear Search 
+
+### 2. Interval Search:
