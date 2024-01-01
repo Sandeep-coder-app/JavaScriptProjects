@@ -1,13 +1,4 @@
-function sort(arr, l, r)
-{
-    if(l < r)
-    {
-        let mid = Math.floor((l + r) / 2)
-        sort(arr, l, mid)
-        sort(arr, mid + 1, r)
-        merge(arr, l, mid, r)
-    }
-}
+
 
 function merge(arr, l, mid, r)
 {
@@ -50,6 +41,17 @@ function merge(arr, l, mid, r)
         arr[k] = k[j]
         j++
         k++
+    }
+}
+
+function sort(arr, l, r)
+{
+    if(l < r)
+    {
+        let mid = Math.floor((l + r) / 2)
+        sort(arr, l, mid)
+        sort(arr, mid + 1, r)
+        merge(arr, l, mid, r)
     }
 }
 
