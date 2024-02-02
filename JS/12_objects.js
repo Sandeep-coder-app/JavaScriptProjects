@@ -35,3 +35,17 @@ const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 console.log(Object.keys(obj1));
+
+
+// de-structing 
+
+const course = {
+    courseName: "JS Course",
+    price: 999,
+    courseInstructor: "Sandeep Singh"
+}
+
+const {courseName} = course
+
+console.log(courseName);
+
