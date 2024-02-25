@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Request</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <h1 id="name"></h1>
+</body>
+<script>
+    const requestUrl = "https://api.github.com/users/sandeep-coder-app"
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function () {
+        console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+            const data = JSON.parse(this.responseText)
+            console.log(typeof data);
+            console.log(data.name);
+            // show the name to give in the url
+            let dataList = document.getElementById('name')
+            const listItem = document.createElement('h1')
+            listItem.textContent = data.bio
+            dataList.appendChild(listItem)
+        }
+    }
+   
+    xhr.send()
+</script>
+</html>
