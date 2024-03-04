@@ -11,3 +11,4 @@
 console.log(typeof "Sandeep Singh"); // String
 console.log(typeof null); // object
 console.log(typeof undefined); // undefined
+// sa
