@@ -15,3 +15,4 @@ function printMirroredRightTriangle(height) {
 
 // Example usage
 printMirroredRightTriangle(5);
+// sasas
